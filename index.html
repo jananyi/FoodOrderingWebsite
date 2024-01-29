@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                        <a href="foods.html">Foods</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+
+    <!-- fOOD sEARCH Section Starts Here -->
+    <section class="food-search text-center">
+        <div class="container">
+            
+            <form action="food-search.html" method="POST">
+                <input type="search" name="search" placeholder="Search for Food.." required>
+                <input type="submit" name="submit" value="Search" class="btn btn-primary">
+            </form>
+
+        </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+    <!-- CAtegories Section Starts Here -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="text-center divison-head">Top Orders</h2>
+
+            <a href="category-foods.html">
+            <div class="box-3 float-container">
+                <img src="images/pizza.jpg" alt="Pizza" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Pizza</h3>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="box-3 float-container">
+                <img src="images/burger.jpg" alt="Burger" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Burger</h3>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="box-3 float-container">
+                <img src="images/momo.jpg" alt="Momo" class="img-responsive img-curve">
+
+                <h3 class="float-text text-white">Momo</h3>
+            </div>
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Categories Section Ends Here -->
+
+    <!-- fOOD MEnu Section Starts Here -->
+    <section class="food-menu">
+        <div class="container">
+            <h2 class="text-center divison-head">What's on your mind?</h2>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Pizza</h4>
+                    <p class="food-price">$250</p>
+                    <p class="food-detail">
+                        Savor the exquisite delight of a meticulously crafted pizza, a symphony of flavors on a golden, thin crust. This culinary masterpiece features a luscious blend of sun-kissed tomato sauce and melted mozzarella, creating a harmonious dance of creamy and tangy notes. 
+                    </p>
+                    <br>
+
+                    <a href="order.html" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-burger.jpg" alt="Chicke Hawain Burger" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Burger</h4>
+                    <p class="food-price">$150</p>
+                    <p class="food-detail">
+                        Melted cheddar cascades over the edges, embracing the meat in a savory embrace. Crisp lettuce, ripe tomatoes, and pickles add a refreshing crunch, while a slathering of tangy special sauce elevates the taste to gourmet heights.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-momo.jpg" alt="Chicke Tender Momos" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Momos</h4>
+                    <p class="food-price">$230</p>
+                    <p class="food-detail">
+                        Momos are bite-sized parcels of joy from the Himalayas! Imagine soft, pillowy dough pockets bursting with savory fillings like spiced minced meat, tangy cabbage, or melty cheese. Steamed or fried, they're dipped in fiery chutneys for a burst of flavor.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+           </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-tenders.png" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Chicken Tenders</h4>
+                    <p class="food-price">$400</p>
+                    <p class="food-detail">
+                        Succulent, golden-fried chicken tenders beckon, their crispy coating yielding to juicy, tender meat within. Each bite is a flavor explosion, from the satisfying crunch to the savory, perfectly seasoned chicken. Dunk them in your favorite dipping sauce for a taste bud treat. 
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-tatos.png" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Tactos</h4>
+                    <p class="food-price">$200</p>
+                    <p class="food-detail">
+                        Imagine warm, soft tortillas cradling a vibrant fiesta of flavors: savory seasoned meat, crisp lettuce, juicy tomatoes, creamy avocado, and a zingy salsa drizzle. Each bite is an explosion of textures and tastes, a handheld masterpiece enjoyed worldwide. 
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-fingers.png" alt="Chicke Hawain Momo" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Fish fingers</h4>
+                    <p class="food-price">$230</p>
+                    <p class="food-detail">
+                        Imagine golden, crispy coats encasing tender, flaky fish fingers – that's the magic of these bite-sized delights! Made from white fish like cod or haddock, dipped in batter or breadcrumbs, and cooked to perfection, they're a childhood favorite enjoyed by all ages.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+
+            <div class="clearfix"></div>
+
+            
+
+        </div>
+
+        <p class="text-center">
+            <a href="#">See All Foods</a>
+        </p>
+    </section>
+    <!-- fOOD Menu Section Ends Here -->
+
+    <!-- social Section Starts Here -->
+    <section class="social">
+        <div class="container text-center">
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C550525804791%7Cb%7Cfacebook%7C&placement=&creative=550525804791&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696220912%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-592856129%26loc_physical_ms%3D9181803%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAiA8NKtBhBtEiwAq5aX2NbWd6Opkwe-LzFLLZm6BGRNbSDEjXDohWdWUockQYEs7HZmMMzIxhoC8gcQAvD_BwE"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/?next=%2F"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/home"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- social Section Ends Here -->
+
+    <!-- footer Section Starts Here -->
+    <section class="footer">
+        <div class="container text-center">
+            <p>All rights reserved. Designed By <a href="#">VirtuiqEra</a></p>
+        </div>
+    </section>
+    <!-- footer Section Ends Here -->
+
+</body>
+</html>
