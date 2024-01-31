@@ -121,7 +121,7 @@ fieldset{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 10% 0;
+    padding: 15% 0;
     width: 100%;
 }
 
@@ -211,7 +211,28 @@ fieldset{
     font-weight: bold;
 }
 
+/* CSS for logo section */
+.logo-size{
+    margin-left: 37%;
+    margin-top: 2%;
+    height: 180px;
+}
 
+.logo-section{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    background-color: #282626;
+}
+
+.logo-section-end-para{
+    color: #c6c4be;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
 
 /* CSS for Mobile Size or Smaller Screen */
 
