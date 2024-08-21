@@ -120,3 +120,18 @@ fieldset{
     float: left;
     text-align: center;
 }
+
+.tbl_edit{
+    width: 100%;
+}
+
+table tr th{
+    padding: 1%;
+    border-bottom: 1px black solid;
+    text-align: left;
+    
+}
+
+table tr td{
+    padding: 1%;
+}
